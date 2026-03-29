@@ -24,6 +24,7 @@ class Core {
 		require_once BREZNGEO_DIR . 'includes/Providers/ProviderInterface.php';
 		require_once BREZNGEO_DIR . 'includes/Providers/ProviderRegistry.php';
 		require_once BREZNGEO_DIR . 'includes/Providers/OpenAIProvider.php';
+		require_once BREZNGEO_DIR . 'includes/Providers/DeepInfraProvider.php';
 		require_once BREZNGEO_DIR . 'includes/Providers/AnthropicProvider.php';
 		require_once BREZNGEO_DIR . 'includes/Providers/GeminiProvider.php';
 		require_once BREZNGEO_DIR . 'includes/Providers/GrokProvider.php';
@@ -61,6 +62,7 @@ class Core {
 	private function register_hooks(): void {
 		$registry = ProviderRegistry::instance();
 		$registry->register( new Providers\OpenAIProvider() );
+		$registry->register( new Providers\DeepInfraProvider() );
 		$registry->register( new Providers\AnthropicProvider() );
 		$registry->register( new Providers\GeminiProvider() );
 		$registry->register( new Providers\GrokProvider() );
