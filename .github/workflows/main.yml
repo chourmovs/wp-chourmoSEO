@@ -67,7 +67,7 @@ jobs:
 
           # Allowlist stricte : uniquement sources + configs utiles
           ALLOWED_CONTENT_EXTENSIONS = {
-              ".py", ".pyi",
+              ".py", ".pyi", ".php"
               ".js", ".ts", ".tsx", ".jsx",
               ".rs",
               ".go",
