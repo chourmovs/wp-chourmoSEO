@@ -1,0 +1,160 @@
+/* BreznGEO — GEO Block (scoped to .brezngeo-geo) */
+
+/* ── Base layout + Light theme (default) ──────────────── */
+.brezngeo-geo,
+.brezngeo-geo[data-brezngeo-theme="light"] {
+	--brezngeo-border:    #e0e0e0;
+	--brezngeo-bg:        #fafafa;
+	--brezngeo-sec-border:#e0e0e0;
+	--brezngeo-label:     #666;
+	--brezngeo-faq-ans:   #444;
+	--brezngeo-accent:    #0073aa;
+
+	margin: 1.5em 0;
+	border: 1px solid var(--brezngeo-border);
+	border-radius: 6px;
+	background: var(--brezngeo-bg);
+	padding: 0;
+}
+
+/* ── Dark theme ───────────────────────────────────────── */
+.brezngeo-geo[data-brezngeo-theme="dark"] {
+	--brezngeo-border:    #3d3d3d;
+	--brezngeo-bg:        #1e1e1e;
+	--brezngeo-sec-border:#3d3d3d;
+	--brezngeo-label:     #999;
+	--brezngeo-faq-ans:   #bbb;
+	--brezngeo-accent:    #4ea8d8;
+
+	border: 1px solid var(--brezngeo-border);
+	border-radius: 6px;
+	background: var(--brezngeo-bg);
+	padding: 0;
+}
+
+/* ── Minimal theme ────────────────────────────────────── */
+.brezngeo-geo[data-brezngeo-theme="minimal"] {
+	--brezngeo-sec-border:#efefef;
+	--brezngeo-label:     #999;
+	--brezngeo-faq-ans:   #666;
+
+	margin: 1.5em 0;
+	border: none;
+	border-left: 2px solid #d0d0d0;
+	border-radius: 0;
+	background: transparent;
+	padding: 0 0 0 0.75em;
+}
+
+/* ── Brezn theme ───────────────────────────────────── */
+.brezngeo-geo[data-brezngeo-theme="brezn"] {
+	--brezngeo-border:    #0052a0;
+	--brezngeo-bg:        #f0f5fc;
+	--brezngeo-sec-border:#c5d8f5;
+	--brezngeo-label:     #003d82;
+	--brezngeo-faq-ans:   #2a4a7f;
+	--brezngeo-accent:    #0066b3;
+
+	border: 1px solid var(--brezngeo-border);
+	border-radius: 6px;
+	background: var(--brezngeo-bg);
+	padding: 0;
+}
+
+/* ── Summary bar ──────────────────────────────────────── */
+.brezngeo-geo summary {
+	cursor: pointer;
+	padding: 0.75em 1em;
+	font-weight: 600;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	border-left: 3px solid var(--brezngeo-accent);
+	border-radius: 5px 5px 0 0;
+}
+
+.brezngeo-geo summary::-webkit-details-marker { display: none; }
+
+.brezngeo-geo summary::before {
+	content: '▶';
+	display: inline-block;
+	margin-right: 0.5em;
+	font-size: 0.7em;
+	transition: transform 0.2s;
+	color: var(--brezngeo-accent);
+}
+
+.brezngeo-geo[open] summary::before { transform: rotate(90deg); }
+
+.brezngeo-geo__title { flex: 1; }
+
+/* ── Minimal summary override ─────────────────────────── */
+.brezngeo-geo[data-brezngeo-theme="minimal"] summary {
+	padding: 0.5em 0;
+	font-weight: 500;
+	border-left: none;
+}
+
+.brezngeo-geo[data-brezngeo-theme="minimal"] summary::before {
+	color: #aaa;
+}
+
+/* ── Brezn summary: Rauten (diamond) pattern ───────── */
+.brezngeo-geo[data-brezngeo-theme="brezn"] summary {
+	background-color: #0066b3;
+	background-image:
+		linear-gradient(45deg,  rgba(255,255,255,0.18) 25%, transparent 25%),
+		linear-gradient(-45deg, rgba(255,255,255,0.18) 25%, transparent 25%),
+		linear-gradient(45deg,  transparent 75%, rgba(255,255,255,0.18) 75%),
+		linear-gradient(-45deg, transparent 75%, rgba(255,255,255,0.18) 75%);
+	background-size: 10px 10px;
+	background-position: 0 0, 0 5px, 5px -5px, -5px 0;
+	color: #fff;
+	border-left-color: #003d82;
+	border-radius: 5px 5px 0 0;
+}
+
+.brezngeo-geo[data-brezngeo-theme="brezn"] summary .brezngeo-geo__title {
+	color: #fff;
+}
+
+.brezngeo-geo[data-brezngeo-theme="brezn"] summary::before {
+	color: rgba(255,255,255,0.85);
+}
+
+/* ── Content sections ─────────────────────────────────── */
+.brezngeo-geo__section {
+	padding: 0.75em 1em;
+	border-top: 1px solid var(--brezngeo-sec-border);
+}
+
+.brezngeo-geo[data-brezngeo-theme="minimal"] .brezngeo-geo__section {
+	padding: 0.5em 0;
+}
+
+.brezngeo-geo__section h3 {
+	font-size: 0.8em;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: var(--brezngeo-label);
+	margin: 0 0 0.5em;
+}
+
+.brezngeo-geo__bullets ul {
+	margin: 0;
+	padding-left: 1.25em;
+}
+
+.brezngeo-geo__bullets li { margin-bottom: 0.25em; }
+
+.brezngeo-geo__faq dl { margin: 0; }
+
+.brezngeo-geo__faq dt {
+	font-weight: 600;
+	margin-top: 0.5em;
+}
+
+.brezngeo-geo__faq dd {
+	margin-left: 0;
+	color: var(--brezngeo-faq-ans);
+}
