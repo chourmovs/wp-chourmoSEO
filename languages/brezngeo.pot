@@ -1,0 +1,1619 @@
+# German (de_DE) translation for BreznGEO
+# Copyright (C) 2025 Donau2Space
+# This file is distributed under the GPL-2.0-or-later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: BreznGEO 1.0.0\n"
+"Report-Msgid-Bugs-To: https://donau2space.de\n"
+"POT-Creation-Date: 2026-02-21T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-02-25T00:00:00+00:00\n"
+"Last-Translator: Donau2Space <info@donau2space.de>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Manual\n"
+"X-Domain: brezngeo\n"
+
+#: includes/Admin/AdminMenu.php:11
+#: includes/Admin/AdminMenu.php:12
+msgid "BreznGEO"
+msgstr ""
+
+#: includes/Admin/AdminMenu.php:23
+#: includes/Admin/AdminMenu.php:24
+msgid "Dashboard"
+msgstr ""
+
+#: includes/Admin/AdminMenu.php:31
+#: includes/Admin/AdminMenu.php:32
+#: includes/Admin/views/provider.php:3
+#: includes/Admin/views/provider.php:10
+msgid "AI Provider"
+msgstr ""
+
+#: includes/Admin/AdminMenu.php:41
+#: includes/Admin/AdminMenu.php:42
+#: includes/Admin/views/meta.php:3
+#: includes/Admin/views/meta.php:10
+msgid "Meta Generator"
+msgstr ""
+
+#: includes/Admin/AdminMenu.php:59
+#: includes/Admin/AdminMenu.php:60
+#: includes/Admin/views/bulk.php:3
+#: includes/Admin/views/dashboard.php:42
+msgid "Bulk Generator"
+msgstr ""
+
+#: includes/Admin/AdminMenu.php
+msgid "TXT Files"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:3
+msgid "BreznGEO \xe2\x80\x94 Dashboard"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:8
+msgid "Meta Coverage"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:11
+msgid "No post types configured."
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:15
+msgid "Post Type"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:16
+msgid "Published"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:17
+msgid "With Meta"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:18
+msgid "Coverage"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:36
+msgid "Quick Links"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:39
+msgid "AI Provider Settings"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:40
+msgid "Meta Generator Settings"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:48
+msgid "Status"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:50
+msgid "Version:"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php:51
+msgid "Active Provider:"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "New here?"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Read the setup guide — get running in five minutes →"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Internal Link Analysis"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Loading…"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "AI Crawlers — Last 30 Days"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "No AI crawlers recorded yet."
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Bot"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Visits"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Last Seen"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Analysis error."
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Posts without internal links"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "All posts have internal links."
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Posts with many external links (≥"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "No posts with excessive external links."
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Pillar Pages (Top 5)"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "No data."
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Connection error."
+msgstr ""
+
+#: includes/Admin/views/provider.php:13
+#: includes/Admin/views/bulk.php:15
+msgid "Active Provider"
+msgstr ""
+
+#: includes/Admin/views/provider.php:27
+msgid "API Key"
+msgstr ""
+
+#: includes/Admin/views/provider.php:31
+msgid "Saved:"
+msgstr ""
+
+#: includes/Admin/views/provider.php:37
+msgid "Enter new key to overwrite"
+msgstr ""
+
+#: includes/Admin/views/provider.php:37
+msgid "Enter API key"
+msgstr ""
+
+#: includes/Admin/views/provider.php:41
+msgid "Test connection"
+msgstr ""
+
+#: includes/Admin/views/provider.php:45
+#: includes/Admin/views/bulk.php:28
+msgid "Model:"
+msgstr ""
+
+#: includes/Admin/views/provider.php
+msgid "View current pricing →"
+msgstr ""
+
+#: includes/Admin/views/provider.php
+msgid "Cost per 1 million tokens (for the Bulk cost overview):"
+msgstr ""
+
+#: includes/Admin/views/provider.php:88
+#: includes/Admin/views/meta.php:101
+msgid "Save Settings"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+#: includes/Admin/views/bulk.php
+#: includes/Admin/views/provider.php
+#: includes/Admin/views/meta.php
+#: includes/Admin/views/geo.php
+#: includes/Admin/views/schema.php
+#: includes/Admin/views/txt.php
+#: includes/Admin/views/link-suggest-settings.php
+msgid "developed by"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+#: includes/Admin/views/bulk.php
+#: includes/Admin/views/provider.php
+#: includes/Admin/views/meta.php
+#: includes/Admin/views/geo.php
+#: includes/Admin/views/schema.php
+#: includes/Admin/views/txt.php
+#: includes/Admin/views/link-suggest-settings.php
+msgid "for"
+msgstr ""
+
+#: includes/Admin/views/bulk.php:7
+msgid "Generates meta descriptions for posts without an existing meta description."
+msgstr ""
+
+#: includes/Admin/views/bulk.php:10
+msgid "Loading statistics\xe2\x80\xa6"
+msgstr ""
+
+#: includes/Admin/views/bulk.php:46
+msgid "Max. posts this run"
+msgstr ""
+
+#: includes/Admin/views/bulk.php:55
+msgid "Start Bulk Run"
+msgstr ""
+
+#: includes/Admin/views/bulk.php:56
+msgid "Cancel"
+msgstr ""
+
+#: includes/Admin/views/bulk.php:64
+msgid "0 / 0 processed"
+msgstr ""
+
+#: includes/Admin/views/txt.php:3
+msgid "llms.txt Configuration"
+msgstr ""
+
+#: includes/Admin/views/txt.php
+msgid "Clear llms.txt Cache"
+msgstr ""
+
+#: includes/Admin/views/txt.php
+msgid "Error."
+msgstr ""
+
+#: includes/Admin/views/txt.php
+msgid "Max. links per page"
+msgstr ""
+
+#: includes/Admin/views/txt.php
+msgid "With more posts, llms-2.txt, llms-3.txt etc. are created and linked automatically."
+msgstr ""
+
+#: includes/Admin/views/txt.php:28
+msgid "Your llms.txt will be served at:"
+msgstr ""
+
+#: includes/Admin/views/txt.php:33
+msgid "Active"
+msgstr ""
+
+#: includes/Admin/views/txt.php:35
+msgid "Inactive"
+msgstr ""
+
+#: includes/Admin/views/txt.php:44
+msgid "Enable llms.txt"
+msgstr ""
+
+#: includes/Admin/views/txt.php:49
+msgid "Serve llms.txt at"
+msgstr ""
+
+#: includes/Admin/views/txt.php:56
+msgid "Title"
+msgstr ""
+
+#: includes/Admin/views/txt.php:63
+msgid "Appears as the # heading in llms.txt"
+msgstr ""
+
+#: includes/Admin/views/txt.php:68
+msgid "Description (before links)"
+msgstr ""
+
+#: includes/Admin/views/txt.php:72
+msgid "Text shown after the title, before featured links."
+msgstr ""
+
+#: includes/Admin/views/txt.php:77
+msgid "Featured Links"
+msgstr ""
+
+#: includes/Admin/views/txt.php:82
+msgid "Important links to highlight for AI models. One per line."
+msgstr ""
+
+#: includes/Admin/views/txt.php:83
+msgid "Markdown format recommended:"
+msgstr ""
+
+#: includes/Admin/views/txt.php:90
+#: includes/Admin/views/meta.php:25
+msgid "Post Types"
+msgstr ""
+
+#: includes/Admin/views/txt.php:101
+msgid "Which post types to include in the content list."
+msgstr ""
+
+#: includes/Admin/views/txt.php:106
+msgid "Max. Links pro Seite"
+msgstr ""
+
+#: includes/Admin/views/txt.php:112
+msgid "Bei mehr Posts werden automatisch llms-2.txt, llms-3.txt etc. erstellt und verlinkt."
+msgstr ""
+
+#: includes/Admin/views/txt.php:118
+msgid "Description (after content)"
+msgstr ""
+
+#: includes/Admin/views/txt.php:126
+msgid "Footer Description"
+msgstr ""
+
+#: includes/Admin/views/txt.php:130
+msgid "Appears at the end of llms.txt after a --- separator."
+msgstr ""
+
+#: includes/Admin/views/txt.php:135
+msgid "Save llms.txt Settings"
+msgstr ""
+
+#: includes/Admin/views/txt.php:139
+msgid "Preview"
+msgstr ""
+
+#: includes/Admin/views/txt.php:141
+msgid "After saving, visit your llms.txt to verify:"
+msgstr ""
+
+#: includes/Admin/views/txt.php:147
+msgid "Note: If the URL shows a 404, go to Settings \xe2\x86\x92 Permalinks and click Save to flush rewrite rules."
+msgstr ""
+
+#: includes/Admin/views/meta.php:13
+msgid "Auto Mode"
+msgstr ""
+
+#: includes/Admin/views/meta.php:20
+msgid "Automatically generate meta description on publish"
+msgstr ""
+
+#: includes/Admin/views/meta.php:39
+msgid "Token Mode"
+msgstr ""
+
+#: includes/Admin/views/meta.php:44
+msgid "Send full article"
+msgstr ""
+
+#: includes/Admin/views/meta.php:50
+msgid "Limit to"
+msgstr ""
+
+#: includes/Admin/views/meta.php:55
+msgid "tokens"
+msgstr ""
+
+#: includes/Admin/views/meta.php:60
+msgid "Prompt"
+msgstr ""
+
+#: includes/Admin/views/meta.php:66
+msgid "Variables:"
+msgstr ""
+
+#: includes/Admin/views/meta.php:68
+msgid "Reset prompt"
+msgstr ""
+
+#: includes/Admin/views/meta.php:74
+msgid "Schema.org Enhancer (GEO)"
+msgstr ""
+
+#: includes/Admin/views/meta.php:77
+msgid "Enabled Schema Types"
+msgstr ""
+
+#: includes/Admin/views/meta.php:91
+msgid "Organization sameAs URLs"
+msgstr ""
+
+#: includes/Admin/views/meta.php:93
+msgid "One URL per line (Twitter, LinkedIn, GitHub, Facebook\xe2\x80\xa6)"
+msgstr ""
+
+#: includes/Admin/views/txt.php
+msgid "Block known AI bots for this site."
+msgstr ""
+
+#: includes/Admin/views/txt.php
+msgid "Note: Bots are not required to comply."
+msgstr ""
+
+#: includes/Admin/views/txt.php
+msgid "User-Agent"
+msgstr ""
+
+#: includes/Admin/views/txt.php
+msgid "Description"
+msgstr ""
+
+#: includes/Admin/views/txt.php
+msgid "Block"
+msgstr ""
+
+#: includes/Admin/views/txt.php
+msgid "View current robots.txt →"
+msgstr ""
+
+#: includes/Admin/views/txt.php
+msgid "Save robots.txt Settings"
+msgstr ""
+
+#: includes/Admin/MetaEditorBox.php:20
+msgid "Meta Description (BreznGEO)"
+msgstr ""
+
+#: includes/Admin/MetaEditorBox.php
+msgid "AI generated"
+msgstr ""
+
+#: includes/Admin/MetaEditorBox.php
+msgid "Fallback (first paragraph)"
+msgstr ""
+
+#: includes/Admin/MetaEditorBox.php
+msgid "Manually edited"
+msgstr ""
+
+#: includes/Admin/MetaEditorBox.php
+msgid "Not yet generated"
+msgstr ""
+
+#: includes/Admin/MetaEditorBox.php
+msgid "Regenerate with AI"
+msgstr ""
+
+#: includes/Admin/SeoWidget.php
+msgid "SEO Analysis (BreznGEO)"
+msgstr ""
+
+#: includes/Admin/SeoWidget.php
+msgid "Title:"
+msgstr ""
+
+#: includes/Admin/SeoWidget.php
+msgid "Words:"
+msgstr ""
+
+#: includes/Admin/SeoWidget.php
+msgid "Reading Time:"
+msgstr ""
+
+#: includes/Admin/SeoWidget.php
+msgid "Headings"
+msgstr ""
+
+#: includes/Admin/SeoWidget.php:49
+msgid "Links"
+msgstr ""
+
+#: includes/Admin/MetaPage.php:66
+msgid "Organization (sameAs Social Profiles)"
+msgstr ""
+
+#: includes/Admin/MetaPage.php:67
+msgid "Author (sameAs Profile Links)"
+msgstr ""
+
+#: includes/Admin/MetaPage.php:68
+msgid "Speakable (for AI assistants)"
+msgstr ""
+
+#: includes/Admin/MetaPage.php:69
+msgid "Article about/mentions"
+msgstr ""
+
+#: includes/Admin/MetaPage.php:70
+msgid "BreadcrumbList"
+msgstr ""
+
+#: includes/Admin/MetaPage.php:71
+msgid "AI-optimized Meta Tags (max-snippet etc.)"
+msgstr ""
+
+#: includes/Admin/ProviderPage.php:83
+#: includes/Features/MetaGenerator.php:149
+#: includes/Features/MetaGenerator.php:181
+msgid "Insufficient permissions."
+msgstr ""
+
+#: includes/Admin/ProviderPage.php:89
+msgid "No API key saved. Please save first."
+msgstr ""
+
+#: includes/Admin/ProviderPage.php:93
+msgid "Unknown provider."
+msgstr ""
+
+#: includes/Admin/LlmsPage.php
+msgid "Cache cleared."
+msgstr ""
+
+#: includes/Features/MetaGenerator.php
+msgid "A bulk process is already running."
+msgstr ""
+
+#: includes/Features/LlmsTxt.php
+msgid "BreznGEO serves llms.txt with priority \xe2\x80\x94 no action needed in Rank Math."
+msgstr ""
+
+#: includes/Admin/AdminMenu.php
+msgid "GEO Quick Overview"
+msgstr ""
+
+#: includes/Admin/GeoEditorBox.php
+msgid "GEO Quick Overview (BreznGEO)"
+msgstr ""
+
+#: includes/Admin/GeoEditorBox.php
+msgid "Enable GEO block for this post"
+msgstr ""
+
+#: includes/Admin/GeoEditorBox.php
+msgid "Lock auto-regeneration"
+msgstr ""
+
+#: includes/Admin/GeoEditorBox.php
+#, php-format
+msgid "Generated: %s"
+msgstr ""
+
+#: includes/Admin/GeoEditorBox.php
+msgid "Generate now"
+msgstr ""
+
+#: includes/Admin/GeoEditorBox.php
+msgid "Regenerate"
+msgstr ""
+
+#: includes/Admin/GeoEditorBox.php
+msgid "Clear"
+msgstr ""
+
+#: includes/Admin/GeoEditorBox.php
+msgid "Summary"
+msgstr ""
+
+#: includes/Admin/GeoEditorBox.php
+msgid "(one per line)"
+msgstr ""
+
+#: includes/Admin/GeoEditorBox.php
+msgid "Key Points"
+msgstr ""
+
+#: includes/Admin/GeoEditorBox.php
+msgid "(Format: Question? | Answer \xe2\x80\x94 one per line)"
+msgstr ""
+
+#: includes/Admin/GeoEditorBox.php
+msgid "Prompt add-on (optional)"
+msgstr ""
+
+#: includes/Admin/GeoEditorBox.php
+msgid "Generation failed. Check API key and provider settings."
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Activation"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Enable GEO Block"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Output the Quick Overview block on the frontend"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Mode"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Auto on publish / update (recommended)"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Hybrid: auto only when fields are empty"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Manual only (editor button)"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Regenerate on update"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Regenerate on every save of a published post"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Word threshold for FAQ"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Below this word count, no FAQ is generated. Default: 350"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Output"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "After first paragraph (default)"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Top of post"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Bottom of post"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Output style"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Collapsible <details> (default)"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Always open"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Store only, no frontend output"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Block title"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Summary label"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Key Points label"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "FAQ label"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Load minimal CSS"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Load base stylesheet for .brezngeo-geo on the frontend"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Automatically scoped to .brezngeo-geo{...}. Enter CSS property:value pairs only — selectors, at-rules (@media, @import etc.) and url() are blocked for security."
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "AI Prompt"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Default prompt"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Per-post prompt add-on"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Authors can enter a prompt add-on per post in the editor"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Plugin Compatibility"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "The following SEO plugins were detected. BreznGEO adapts automatically."
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "llms.txt: BreznGEO serves the file with priority — Rank Math is bypassed."
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Schema.org: BreznGEO suppresses its own JSON-LD to avoid duplicates."
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Meta descriptions: BreznGEO writes to the Rank Math meta field."
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Meta descriptions: BreznGEO writes to the Yoast meta field."
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Meta descriptions: BreznGEO writes to the AIOSEO meta field."
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Meta descriptions: BreznGEO writes to the SEOPress meta field."
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Color scheme"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Auto (follows OS light/dark preference)"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Always light"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Always dark"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Auto detects the visitor's OS or browser setting via prefers-color-scheme."
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Accent color"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Used for the left border of the summary bar and the expand arrow. Leave empty for the default blue."
+msgstr ""
+
+# --- v1.2.2 ---
+
+#: includes/Admin/AdminMenu.php
+msgid "Testing…"
+msgstr ""
+
+#: includes/Admin/AdminMenu.php
+msgid "Network error"
+msgstr ""
+
+# --- v1.2.3 ---
+
+#: includes/Admin/BulkPage.php
+msgid "A bulk process is already running"
+msgstr ""
+
+#: includes/Admin/BulkPage.php
+msgid "since"
+msgstr ""
+
+#: includes/Admin/BulkPage.php
+msgid "Posts without meta description:"
+msgstr ""
+
+#: includes/Admin/BulkPage.php
+msgid "Total:"
+msgstr ""
+
+#: includes/Admin/BulkPage.php
+msgid "Input tokens"
+msgstr ""
+
+#: includes/Admin/BulkPage.php
+msgid "Output tokens"
+msgstr ""
+
+#: includes/Admin/BulkPage.php
+msgid "▶ Start — max {limit} posts, Provider: {provider}"
+msgstr ""
+
+#: includes/Admin/BulkPage.php
+msgid "Stop requested…"
+msgstr ""
+
+#: includes/Admin/BulkPage.php
+msgid "↻ Processing {count} posts… ({remaining} remaining)"
+msgstr ""
+
+#: includes/Admin/BulkPage.php
+msgid "Unknown error"
+msgstr ""
+
+#: includes/Admin/BulkPage.php
+msgid "attempt"
+msgstr ""
+
+#: includes/Admin/BulkPage.php
+msgid "processed"
+msgstr ""
+
+#: includes/Admin/BulkPage.php
+msgid "— Done —"
+msgstr ""
+
+#: includes/Admin/BulkPage.php
+msgid "posts failed:"
+msgstr ""
+
+#: includes/Providers/OpenAIProvider.php
+#: includes/Providers/AnthropicProvider.php
+#: includes/Providers/GeminiProvider.php
+#: includes/Providers/GrokProvider.php
+msgid "Connection successful"
+msgstr ""
+
+#: includes/Providers/OpenAIProvider.php
+#: includes/Providers/AnthropicProvider.php
+#: includes/Providers/GeminiProvider.php
+#: includes/Providers/GrokProvider.php
+msgid "Recommended"
+msgstr ""
+
+#: includes/Providers/OpenAIProvider.php
+#: includes/Providers/GeminiProvider.php
+#: includes/Providers/GrokProvider.php
+msgid "Cheap"
+msgstr ""
+
+#: includes/Providers/OpenAIProvider.php
+msgid "Very cheap"
+msgstr ""
+
+#: includes/Providers/AnthropicProvider.php
+msgid "Powerful"
+msgstr ""
+
+#: includes/Providers/AnthropicProvider.php
+msgid "Fast & cheap"
+msgstr ""
+
+#: includes/Admin/AdminMenu.php
+msgid "Really reset the prompt?"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Servus! Welcome to BreznGEO."
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "No Lederhosen required — your SEO is already in good hands."
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Read the setup guide and be running in five minutes →"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Dismiss"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Version"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "AI metas generated"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Tokens used (est.)"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Est. cost (USD)"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Configure AI Provider"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Documentation &amp; How To"
+msgstr ""
+
+#: includes/Admin/views/provider.php
+msgid "Enable AI generation"
+msgstr ""
+
+#: includes/Admin/views/provider.php
+msgid "This feature will incur costs with your AI provider. Make sure you understand the pricing before entering an API key."
+msgstr ""
+
+#: includes/Admin/AdminMenu.php
+msgid "Link Suggestions"
+msgstr ""
+
+#: includes/Admin/views/link-suggest-settings.php
+msgid "Analysis Trigger"
+msgstr ""
+
+msgid "When to analyse"
+msgstr ""
+
+msgid "Manual only (button)"
+msgstr ""
+
+msgid "On post save"
+msgstr ""
+
+msgid "Every"
+msgstr ""
+
+msgid "minutes"
+msgstr ""
+
+msgid "Exclude Posts / Pages"
+msgstr ""
+
+msgid "These posts will never appear as link suggestions (e.g. Imprint, Contact, Terms)."
+msgstr ""
+
+msgid "Excluded"
+msgstr ""
+
+msgid "Search posts…"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Prioritise Posts / Pages"
+msgstr ""
+
+msgid "Boosted posts rank higher when thematically relevant. A boost of 1.0 = no change."
+msgstr ""
+
+msgid "Boosted"
+msgstr ""
+
+msgid "Boost:"
+msgstr ""
+
+msgid "AI Options (optional)"
+msgstr ""
+
+msgid "AI is connected — these settings control how many candidates are sent for semantic analysis."
+msgstr ""
+
+msgid "Candidates to AI"
+msgstr ""
+
+msgid "How many pre-scored candidates are passed to the AI (max 50)."
+msgstr ""
+
+msgid "Max output tokens"
+msgstr ""
+
+#: includes/Admin/views/link-suggest-box.php
+msgid "Click Analyse to find internal link opportunities."
+msgstr ""
+
+msgid "Analyse"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Apply (0 links)"
+msgstr ""
+
+#: includes/Features/LinkSuggest.php
+msgid "Internal Link Suggestions (BreznGEO)"
+msgstr ""
+
+msgid "Analysing…"
+msgstr ""
+
+msgid "No suggestions found."
+msgstr ""
+
+msgid "Apply (%d links)"
+msgstr ""
+
+msgid "Confirm"
+msgstr ""
+
+msgid "Applied — %d links set ✓"
+msgstr ""
+
+msgid "Prioritised"
+msgstr ""
+
+msgid "Open post"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "AI Features"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Settings saved."
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Choose which features may use your connected AI provider. All options are opt-in and disabled by default."
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Meta Descriptions"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Generate meta descriptions with AI when editing or using the Bulk Generator."
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Internal Link Suggestions"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Let AI pick the most natural anchor phrases and rank candidates semantically."
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "GEO Block"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Use AI to generate GEO-optimised content blocks for LLM visibility."
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "Save"
+msgstr ""
+
+# --- v1.3.3 i18n pass ---
+
+#: includes/Admin/views/dashboard.php
+#: includes/Admin/AdminMenu.php
+#: includes/Admin/views/keyword-settings.php
+msgid "Keyword Analysis"
+msgstr ""
+
+#: includes/Admin/views/dashboard.php
+msgid "AI-powered keyword suggestions, optimization tips, and semantic analysis."
+msgstr ""
+
+#: includes/Admin/views/meta.php
+msgid "SEO Widget"
+msgstr ""
+
+#: includes/Admin/views/meta.php
+msgid "Theme outputs post title as H1 (suppresses \"no H1\" warning in editor)"
+msgstr ""
+
+#: includes/Admin/views/meta.php
+msgid "Most themes render the post title as an H1 tag on the front end. Enable this to avoid false warnings in the SEO Widget when the content itself contains no H1."
+msgstr ""
+
+#: includes/Admin/views/meta.php
+msgid "No AI provider active."
+msgstr ""
+
+#: includes/Admin/views/meta.php
+msgid "Meta descriptions will use the fallback method (first paragraph of the post) until an API key is configured and AI generation is enabled."
+msgstr ""
+
+#: includes/Admin/views/meta.php
+msgid "Configure AI Provider →"
+msgstr ""
+
+#: includes/Admin/views/meta.php
+msgid "Fallback mode active — configure an AI provider to enable AI generation."
+msgstr ""
+
+#: includes/Admin/views/txt.php
+msgid "Clear Cache"
+msgstr ""
+
+#: includes/Admin/views/txt.php
+msgid "URL:"
+msgstr ""
+
+#: includes/Admin/KeywordMetaBox.php
+msgid "Keyword Analysis (BreznGEO)"
+msgstr ""
+
+#: includes/Admin/views/keyword-meta-box.php
+msgid "Main Keyword"
+msgstr ""
+
+#: includes/Admin/views/keyword-meta-box.php
+msgid "e.g. Passau travel guide"
+msgstr ""
+
+#: includes/Admin/views/keyword-meta-box.php
+msgid "Secondary Keywords"
+msgstr ""
+
+#: includes/Admin/views/keyword-meta-box.php
+msgid "Add Keyword"
+msgstr ""
+
+#: includes/Admin/views/keyword-meta-box.php
+msgid "Analyze"
+msgstr ""
+
+#: includes/Admin/views/keyword-meta-box.php
+msgid "Suggest Keywords"
+msgstr ""
+
+#: includes/Admin/views/keyword-meta-box.php
+msgid "Showing cached results. Click \"Analyze\" to refresh."
+msgstr ""
+
+#: includes/Admin/views/keyword-meta-box.php
+msgid "Optimization Tips"
+msgstr ""
+
+#: includes/Admin/views/keyword-meta-box.php
+msgid "Semantic Analysis"
+msgstr ""
+
+#: includes/Admin/KeywordMetaBox.php (JS i18n)
+msgid "Analyzing…"
+msgstr ""
+
+#: includes/Admin/KeywordMetaBox.php
+msgid "Please enter a main keyword."
+msgstr ""
+
+#: includes/Admin/KeywordMetaBox.php
+msgid "Getting suggestions…"
+msgstr ""
+
+#: includes/Admin/KeywordMetaBox.php
+msgid "Getting optimization tips…"
+msgstr ""
+
+#: includes/Admin/KeywordMetaBox.php
+msgid "Running semantic analysis…"
+msgstr ""
+
+#: includes/Admin/KeywordMetaBox.php
+msgid "AI keyword features are not activated."
+msgstr ""
+
+#: includes/Admin/KeywordMetaBox.php
+msgid "AI generation failed. Check provider settings."
+msgstr ""
+
+#: includes/Admin/KeywordMetaBox.php
+msgid "Could not parse AI response."
+msgstr ""
+
+#: includes/Admin/KeywordMetaBox.php
+msgid "No keyword provided."
+msgstr ""
+
+#: includes/Admin/SeoWidget.php
+msgid "No H1 heading"
+msgstr ""
+
+#: includes/Admin/SeoWidget.php
+msgid "Multiple H1 headings"
+msgstr ""
+
+#: includes/Admin/SeoWidget.php
+msgid "No internal links"
+msgstr ""
+
+#: includes/Admin/SeoWidget.php
+msgid "internal"
+msgstr ""
+
+#: includes/Admin/SeoWidget.php
+msgid "external"
+msgstr ""
+
+#: includes/Admin/SeoWidget.php
+msgid "min"
+msgstr ""
+
+#: includes/Admin/views/keyword-settings.php
+msgid "Analysis Settings"
+msgstr ""
+
+#: includes/Admin/views/keyword-settings.php
+msgid "Update Mode"
+msgstr ""
+
+#: includes/Admin/views/keyword-settings.php
+msgid "Manual — click \"Analyze\" button"
+msgstr ""
+
+#: includes/Admin/views/keyword-settings.php
+msgid "Live — auto-analyze while typing"
+msgstr ""
+
+#: includes/Admin/views/keyword-settings.php
+msgid "On Save — analyze when post is saved"
+msgstr ""
+
+#: includes/Admin/views/keyword-settings.php
+msgid "Target Keyword Density (%)"
+msgstr ""
+
+#: includes/Admin/views/keyword-settings.php
+msgid "Recommended: 1.0–2.0%. Pass range is ±0.5% around the target."
+msgstr ""
+
+#: includes/Admin/views/keyword-settings.php
+msgid "Min. Occurrences (Primary)"
+msgstr ""
+
+#: includes/Admin/views/keyword-settings.php
+msgid "Min. Occurrences (Secondary)"
+msgstr ""
+
+#: includes/Admin/views/keyword-settings.php
+msgid "Live Mode Debounce (ms)"
+msgstr ""
+
+#: includes/Admin/views/keyword-settings.php
+msgid "Delay in milliseconds before live analysis triggers after typing stops."
+msgstr ""
+
+#: includes/Admin/views/keyword-settings.php
+msgid "Show keyword meta box on"
+msgstr ""
+
+#: includes/Admin/views/bulk.php
+msgid "No AI provider connected — descriptions will be generated from content without AI (fallback mode)."
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Labels"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Styling"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Position"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Theme"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Light"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Dark"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Minimal"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Brezn"
+msgstr ""
+
+# --- Schema.org ---
+
+#: includes/Admin/AdminMenu.php
+msgid "Schema.org"
+msgstr ""
+
+#: includes/Admin/AdminMenu.php
+msgid "AI disabled"
+msgstr ""
+
+#: includes/Admin/AdminMenu.php
+msgid "\xe2\x80\x94 Not configured \xe2\x80\x94"
+msgstr ""
+
+#: includes/Admin/views/schema.php
+msgid "BreznGEO Schema"
+msgstr ""
+
+#: includes/Admin/views/schema-meta-box.php
+msgid "Schema Type"
+msgstr ""
+
+#: includes/Admin/views/schema-meta-box.php
+msgid "\xe2\x80\x94 No Schema \xe2\x80\x94"
+msgstr ""
+
+#: includes/Admin/views/schema.php
+msgid "BlogPosting / Article (with embedded Author + Image)"
+msgstr ""
+
+#: includes/Admin/views/schema.php
+msgid "FAQPage (from GEO Quick Overview \xe2\x80\x94 automatic)"
+msgstr ""
+
+#: includes/Admin/views/schema.php
+msgid "ImageObject (Featured Image)"
+msgstr ""
+
+#: includes/Admin/views/schema.php
+msgid "VideoObject (auto-detect YouTube/Vimeo)"
+msgstr ""
+
+#: includes/Admin/views/schema-meta-box.php
+msgid "Recipe"
+msgstr ""
+
+#: includes/Admin/views/schema-meta-box.php
+msgid "Recipe Name"
+msgstr ""
+
+#: includes/Admin/views/schema-meta-box.php
+msgid "Recipe (Metabox in Post Editor)"
+msgstr ""
+
+#: includes/Admin/views/schema-meta-box.php
+msgid "Event"
+msgstr ""
+
+#: includes/Admin/views/schema-meta-box.php
+msgid "Event Name"
+msgstr ""
+
+#: includes/Admin/views/schema-meta-box.php
+msgid "Event (Metabox in Post Editor)"
+msgstr ""
+
+#: includes/Admin/views/schema-meta-box.php
+msgid "HowTo Guide"
+msgstr ""
+
+#: includes/Admin/views/schema-meta-box.php
+msgid "HowTo (Metabox in Post Editor)"
+msgstr ""
+
+#: includes/Admin/views/schema-meta-box.php
+msgid "Review / Rating"
+msgstr ""
+
+#: includes/Admin/views/schema-meta-box.php
+msgid "Review with Rating (Metabox in Post Editor)"
+msgstr ""
+
+#: includes/Admin/views/schema-meta-box.php
+msgid "Guide Name"
+msgstr ""
+
+#: includes/Admin/views/schema-meta-box.php
+msgid "Steps (one line = one step)"
+msgstr ""
+
+#: includes/Admin/views/schema-meta-box.php
+msgid "Ingredients (one per line)"
+msgstr ""
+
+#: includes/Admin/views/schema-meta-box.php
+msgid "Instructions (one step per line)"
+msgstr ""
+
+#: includes/Admin/views/schema-meta-box.php
+msgid "Prep Time (min)"
+msgstr ""
+
+#: includes/Admin/views/schema-meta-box.php
+msgid "Cook Time (min)"
+msgstr ""
+
+#: includes/Admin/views/schema-meta-box.php
+msgid "Servings"
+msgstr ""
+
+#: includes/Admin/views/schema-meta-box.php
+msgid "Rating (1\xe2\x80\x935)"
+msgstr ""
+
+#: includes/Admin/views/schema-meta-box.php
+msgid "Reviewed Product / Service"
+msgstr ""
+
+#: includes/Admin/views/schema-meta-box.php
+msgid "Start Date"
+msgstr ""
+
+#: includes/Admin/views/schema-meta-box.php
+msgid "End Date (optional)"
+msgstr ""
+
+#: includes/Admin/views/schema-meta-box.php
+msgid "Location or URL"
+msgstr ""
+
+#: includes/Admin/views/schema-meta-box.php
+msgid "Online Event"
+msgstr ""
+
+#: includes/Admin/views/schema-meta-box.php
+msgid "Post not found."
+msgstr ""
+
+# --- Keyword Analysis Checks ---
+
+#: includes/Features/KeywordAnalysis.php
+msgid "Keyword Density"
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "Keyword found in title."
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "Keyword not found in title."
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "Keyword found in subheading."
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "Keyword not found in any H2-H6."
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "Keyword found in URL."
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "Keyword not found in URL."
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "Keyword found in meta description."
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "Keyword not found in meta description."
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "Meta description is empty."
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "Keyword found in first paragraph."
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "Keyword not found in first paragraph."
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "Keyword found in last paragraph."
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "Keyword not found in last paragraph."
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "Keyword found in excerpt."
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "Keyword not found in excerpt."
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "Excerpt is empty."
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "Keyword found in image alt text."
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "No image contains keyword in alt text."
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "No images found."
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "Keyword found in image title or caption."
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "Keyword not found in any image title or caption."
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "No paragraphs found."
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "Keyword not found in content."
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "URL / Slug"
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "First Paragraph"
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "Last Paragraph"
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "Image Alt Texts"
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "Image Title/Caption"
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "Excerpt"
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "Meta Description"
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+msgid "FAQ"
+msgstr ""
+
+#: includes/Features/KeywordAnalysis.php
+#, php-format
+msgid "%1$.1f%% (target: %2$.1f%%)"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "The GEO block will not be generated automatically until an API key is configured and AI generation is enabled."
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Variables: {title}, {content}, {language}"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+#, php-format
+msgid "Want to customise further? <a href=\"%s\" target=\"_blank\" rel=\"noopener\">Learn how to style the block via your theme &rarr;</a>"
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Left border stripe and expand arrow colour. Leave empty for the default blue. Not used by the Minimal theme."
+msgstr ""
+
+#: includes/Admin/views/geo.php
+msgid "Light \xe2\x80\x94 clean card with a blue accent. Dark \xe2\x80\x94 same for dark-mode sites. Minimal \xe2\x80\x94 borderless, left stripe only. Brezn \xe2\x80\x94 Brezn blue with diamond header pattern."
+msgstr ""
+
+#: includes/Admin/views/bulk.php
+#, php-format
+msgid "No AI provider connected \xe2\x80\x94 descriptions will be generated from content without AI (fallback mode). <a href=\"%s\">Configure a provider \xe2\x86\x92</a>"
+msgstr ""
